@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@ppzp/resh": "^0.1.5",
+    "mongodb": "^4.2.2"
+  }
+}
