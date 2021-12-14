@@ -1,6 +1,7 @@
 const { MongoClient } = require('mongodb')
 
-const url = 'mongodb+srv://gy:WAmXMSIhXwtvlydV@mm.mrswz.mongodb.net/?retryWrites=true&w=majority'
+// 此处 url 需换成你的用户名、密码、主机
+const url = 'mongodb+srv://username:password@host/?retryWrites=true&w=majority'
 const client = new MongoClient(url)
 
 module.exports = {
